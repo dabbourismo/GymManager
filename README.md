@@ -6,6 +6,7 @@ Using C# - Crystal Reports - SQLite database
 The main app feature is attendance using barcode - the app generates barcode for each member of the gym depending on unique ID 
 
 The application calculates member supscriptions using 2 methods:
+
 1- number of training sessions.
 
 2- monthly supscrition

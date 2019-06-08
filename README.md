@@ -2,7 +2,7 @@
 Winform Application Created for client that needed a simple gym application for attending
 Using C# - Crystal Reports - SQLite database
 
-#How it works
+# How it works
 The main app feature is attendance using barcode - the app generates barcode for each member of the gym depending on unique ID 
 
 The application calculates member supscriptions using 2 methods:

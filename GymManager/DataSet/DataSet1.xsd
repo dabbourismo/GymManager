@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Subs" msprop:Generator_TableClassName="SubsDataTable" msprop:Generator_TableVarName="tableSubs" msprop:Generator_TablePropName="Subs" msprop:Generator_RowDeletingName="SubsRowDeleting" msprop:Generator_RowChangingName="SubsRowChanging" msprop:Generator_RowEvHandlerName="SubsRowChangeEventHandler" msprop:Generator_RowDeletedName="SubsRowDeleted" msprop:Generator_UserTableName="Subs" msprop:Generator_RowChangedName="SubsRowChanged" msprop:Generator_RowEvArgName="SubsRowChangeEvent" msprop:Generator_RowClassName="SubsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubID" msprop:Generator_ColumnVarNameInTable="columnSubID" msprop:Generator_ColumnPropNameInRow="SubID" msprop:Generator_ColumnPropNameInTable="SubIDColumn" msprop:Generator_UserColumnName="SubID" type="xs:int" minOccurs="0" />
+              <xs:element name="SubName" msprop:Generator_ColumnVarNameInTable="columnSubName" msprop:Generator_ColumnPropNameInRow="SubName" msprop:Generator_ColumnPropNameInTable="SubNameColumn" msprop:Generator_UserColumnName="SubName" type="xs:string" minOccurs="0" />
+              <xs:element name="SubTele" msprop:Generator_ColumnVarNameInTable="columnSubTele" msprop:Generator_ColumnPropNameInRow="SubTele" msprop:Generator_ColumnPropNameInTable="SubTeleColumn" msprop:Generator_UserColumnName="SubTele" type="xs:string" minOccurs="0" />
+              <xs:element name="SubTele2" msprop:Generator_ColumnVarNameInTable="columnSubTele2" msprop:Generator_ColumnPropNameInRow="SubTele2" msprop:Generator_ColumnPropNameInTable="SubTele2Column" msprop:Generator_UserColumnName="SubTele2" type="xs:string" minOccurs="0" />
+              <xs:element name="SubAddress" msprop:Generator_ColumnVarNameInTable="columnSubAddress" msprop:Generator_ColumnPropNameInRow="SubAddress" msprop:Generator_ColumnPropNameInTable="SubAddressColumn" msprop:Generator_UserColumnName="SubAddress" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
